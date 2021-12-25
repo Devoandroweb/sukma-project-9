@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  margin: 0 7rem;
+}
+.content {
+  width: 100%;
+  display: flex;
+}
+.kotak-foto {
+  width: 55%;
+}
+.foto {
+  width: 40%;
+  height: 75vh;
+  display: flex;
+  float: left;
+  text-align: center;
+}
+.nav {
+  width: 100%;
+}
+.nav ul {
+  list-style: none;
+  height: 10px;
+  padding: 30px;
+}
+.nav ul li {
+  float: right;
+}
+.nav ul li:hover {
+  background: gray;
+  height: 50px;
+}
+.nav ul li:hover a {
+  color: white;
+}
+.nav ul li a {
+  display: block;
+  padding: 20px;
+  color: grey;
+  text-decoration: none;
+}
+.nama {
+  display: flex;
+  color: darkcyan;
+  margin: 50px;
+}
+.nama1 {
+  display: flex;
+  margin: 50px;
+}
+.deskripsi {
+  display: flex;
+  margin: 50px;
+  color: gray;
+}
+.tombol {
+  border-radius: 15px 15px 15px;
+  background-color: dodgerblue;
+  height: 40px;
+  width: 120px;
+  margin: 50px;
+}
+.nama-dalam {
+  text-align: center;
+  padding: 10px;
+}
+.nama-dalam a {
+  color: white;
+  text-decoration: none;
+}
+.content1 {
+  display: flex;
+  width: 100%;
+}
+.angka {
+  list-style: none;
+  color: palevioletred;
+  padding: 40px;
+  font-size: xx-large;
+  display: flex;
+}
+.nama-angka {
+  padding: 40px;
+  display: flex;
+}
